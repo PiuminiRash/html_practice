@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+  <form>
+    <h5>Inquires</h5>
+    <label for="fname">First Name</label><br>
+    <input type="text" id="fname" placeholder="Enter your first name">
+    <br><br>
+    <label for="lname">First Name</label><br>
+    <input type="text" id="lname" placeholder="Enter your first name">
+    <br><br>
+    <label for="age">Age</label><br>
+    <input type="date" id="age">
+    <br><br>
+    <label for="tage">Age</label><br>
+    <input type="text" id="tage" placeholder="Enter your age">
+    <br><br>
+    <label for="email">email</label><br>
+    <input type="email" id="email" value="Enter your mail" placeholder="Enter Your Email">
+    <br><br>
+    <label for="tel">Contact Number</label><br>
+    <input type="tel" id="tel" placeholder="07xxxxxxxx" pattern="[0-9]{3}[0-9]{3}[0-9]{4}">
+    <br><br>
+    <div>
+      <label>Choose Your Program</label> <br>
+      <select id="choosen">
+       <optgroup label="Foundation">
+         <option value="fundation in it">Foundation in IT</option>
+         <option value="foundation in business management">Foundation in Business Management</option>
+       </optgroup>
+        <optgroup label="Diploma">
+          <option value="diploma in it">Diploma in IT</option>
+          <option value="diploma in business management">Diploma in Business Management</option>
+        </optgroup>
+        <optgroup label="HND">
+          <option value="hnd in it">HND in IT</option>
+          <option value="in business management">HND Business Management</option>
+        </optgroup>
+        <optgroup label="Undergraduate">
+          <option value="bachelor of it">Bachelor of IT</option>
+          <option value="bachelor of commerce">Bachelor of Commerce</option>
+        </optgroup>
+        <optgroup label="Postgraduate">
+          <option value="msc it">MSc It</option>
+          <option value="mba">MBA</option>
+        </optgroup>
+        <optgroup label="Doctorate">
+          <option value="dba">DBA</option>
+          <option value="phd">Phd in ICT</option>
+        </optgroup>
+      </select>
+    </div>
+      <br>
+    <div><label>Choose Your Program</label> <br>
+      <input type="text" placeholder="Your latest qualification level" list="qualification"><br>
+      <datalist id="qualification">
+        <option value="ol">O/L</option>
+        <option value="al">A/L</option>
+        <option value="diploma">Diploma</option>
+        <option value="degree">Degree</option>
+        <option value="master">Master</option>
+        <option value="phd">Phd</option>
+      </datalist>
+    </div>
+      <br>
+    <div>
+      <label for="massages">Massage</label><br>
+      <textarea
+              id="massages"
+              placeholder="Enter your massage"
+              rows="10"
+              cols="50"
+      ></textarea>
+        <br>
+    </div>
+      <input type="submit" value="submit">
+      <input type="reset" value="submit">
+  </form>
+</body>
+</html>

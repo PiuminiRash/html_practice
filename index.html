@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+  <!--form-->
+  <form>
+    <!-- Text input -->
+    <input type="text" placeholder="Enter your name">
+    <br>
+    <br>
+
+    <!-- Colour Picker -->
+    <input type="color" value="#f1c40f">
+    <br>
+    <br>
+
+    <!-- Button -->
+    <input type="Botton" value="Click">
+    <br>
+    <br>
+
+    <!-- CheckBox -->
+    <input type="checkbox">
+    <input type="checkbox" checked>
+    <br><br>
+
+    <!-- Radio Button -->
+    <input type="radio">
+    <input type="radio" checked>
+    <br><br>
+
+    <!-- Date Picker -->
+    <input type="date">
+    <input type="date" value="2024-02-10">
+
+    <!-- date length-->
+    <input type="date" value="2024-02-10" min="2024-02-01" max="2024-02-10">
+    <br><br>
+
+    <!-- Time Picker -->
+    <input type="time">
+    <input type="time" value="10:30">
+    <br><br>
+
+    <!-- Date Time Picker -->
+    <input type="datetime-local">
+    <input type="datetime-local" value="2024-02-10T13:30">
+    <br><br>
+
+    <!-- Email Input -->
+    <input type="email">
+    <input type="email" value="piuminirashmika@gmail.com" placeholder="Enter Your Email">
+    <br><br>
+
+    <!-- URL Input -->
+    <input type="url" placeholder="Enter website URL">
+    <input type="url" value="https:ijse.lk" placeholder="Enter website url">
+    <br><br>
+
+    <!-- Telephone Number -->
+    <input type="tel" placeholder="07xxxxxxxx">
+    <input type="tel" placeholder="07xxxxxxxx" pattern="[0-9]{3}[0-9]{3}[0-9]{4}">
+    <br><br>
+
+    <!-- Password Input -->
+    <input type="password">
+    <input type="password" placeholder="Enter your  password">
+    <br><br>
+
+    <!-- Number Input -->
+    <input type="number">
+    <input type="number" value="10">
+    <br><br>
+
+    <!-- Week Picker -->
+    <input type="week">
+    <input type="week" value="2024-W04">
+    <br><br>
+
+    <!-- Month Picker -->
+    <input type="month">
+    <input type="month" value="2024-04">
+    <br><br>
+
+    <!-- Range Picker -->
+    <input type="range">
+    <input type="range" value="20">
+    <br><br>
+
+    <!-- Search Input -->
+    <input type="search">
+    <input type="search" placeholder="Search your team">
+    <br><br>
+
+    <!-- Image -->
+    <input type="image" src=".idea/assets/img/logo.png">
+    <br><br>
+
+    <!-- File -->
+    <input type="file" src=".idea/assets/img/logo.png">
+    <br><br>
+
+    <!-- Hidden -->
+    <input type="hidden" value="ABC">
+    <br><br>
+
+
+    <!-- Submit Button -->
+    <input type="submit" value="submit">
+    <br><br>
+
+    <!-- Reset Button -->
+    <input type="reset" value="reset">
+    <br><br>
+
+  </form>
+
+  <form>
+    <div>
+      <label>User Name</label><br>
+      <input type="text" id="name" placeholder="Enter Your Own">
+    </div>
+
+    <br>
+
+    <div>
+    <label>Password</label><br>
+    <input type="password" id="password" placeholder="Enter Your password">
+    </div>
+
+    <br>
+    <!-- Text Area-->
+    <div>
+      <label for="massage">Massage</label><br>
+      <textarea id="massage" placeholder="Enter Your Massage"></textarea>
+    </div>
+
+    <div>
+      <label for="massages">Massage</label><br>
+      <textarea
+      id="massages"
+      placeholder="Enter your mmassage"
+      rows="10"
+      cols="50"
+      ></textarea>
+    </div>
+
+    <br>
+
+    <div>
+      <label> Select Yout Tech</label> <br>
+      <select id="tech">
+        <option value="java">Java</option>
+        <option value="python">Python</option>
+        <option value="c">C</option>
+        <option value="c++">C++</option>
+      </select>
+    </div>
+
+    <br>
+
+    <div>
+      <label for="tech"> Select Yout Tech</label> <br>
+      <select>
+        <optgroup label="Languages">
+          <option value="java">Java</option>
+          <option value="python">Python</option>
+          <option value="c">C</option>
+          <option value="c++">C++</option>
+          <option value="c#">C#</option>
+          <option value="go">GO</option>
+        </optgroup>
+        <optgroup label="FrontEnd">
+          <option value="react">ReactJS</option>
+          <option value="next">NextJS</option>
+          <option value="angular">Angular</option>
+          <option value="vue">VueJS</option>
+        </optgroup>
+        <optgroup label="BackEnd">
+          <option value="spring">Spring</option>
+          <option value="spring-boot">Spring Boot</option>
+          <option value="expressjs">ExpressJS</option>
+        </optgroup>
+      </select>
+    </div>
+
+    <br>
+
+    <!--Option Group-->
+    <div>
+      <input type="text" placeholder="Enter Your Country" list="countries"><br>
+      <datalist id="countries">
+        <option value="sri lanka">Sri Lanka</option>
+        <option value="japan">Japan</option>
+        <option value="china">China</option>
+        <option value="uk">UK</option>
+      </datalist>
+    </div>
+
+    <br>
+
+    <div>
+      <label for="country"></label>
+      <input type="text" placeholder="Enter Your Country" list="country"><br>
+      <datalist id="country">
+        <option value="sri lanka">Sri Lanka</option>
+        <option value="japan">Japan</option>
+        <option value="china">China</option>
+        <option value="uk">UK</option>
+      </datalist>
+    </div>
+
+    <br>
+
+    <fieldset>
+      <input type="radio" id="male" name="gender"><label for="male">Male</label>
+      <input type="radio" id="female" name="gender"><label for="female">Female</label>
+    </fieldset>
+
+    <!-- Button -->
+    <input type="button" value="click">
+    <input type="submit" value="submit">
+    <input type="reset" value="submit">
+
+    <br>
+    <br>
+
+    <input type="button" value="click">
+    <input type="submit" value="submit">
+    <input type="reset" value="submit">
+  </form>
+
+  <br>
+
+  <form oninput="result.value=a.value+b.value">
+    <input type="range" id="a" name="a" value="10">
+    +
+    <input type="number" id="b" name="b" value="30">
+    =
+    <output name="result">30</output>
+  </form>
+  <br><br>
+  <p>------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
+  <!--  Special Character-->
+  <p>
+    Hello&nbsp;&nbsp;&nbsp;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab ad adipisci, aperiam asperiores deleniti distinctio ea eaque earum fuga impedit minima mollitia natus, nesciunt nobis, possimus qui quo repudiandae vel.
+  </p>
+  <!--  &lt; - Less Than-->
+  <p>
+    X&ltY
+  </p>
+<!--  &gt; - Greater Than-->
+  <p>
+    X&ltY
+  </p>
+<!--  & -->
+  <p>
+    Tom&amp;Jerry
+  </p>
+<!--  &quot - Quotation Mark -->
+<p>
+  &quot;Welcome to IJSE&quot;
+</p>
+<!--  &copy; - Copyright Symbol-->
+<p>
+  &copy;ABC
+</p>
+<!--  &trade; - tread mark-->
+<P>
+  CNN&trade;
+</P>
+</body>
+</html>
